@@ -46,7 +46,7 @@ Then, add the following to `mydetector.launch` in the launch folder:
     <!-- Camera topic and weights, config and classes files -->
     <arg name="image_topic"	                value="/camera/image_raw"/>
     <!-- Absolute path to weights file (change this) -->
-    <arg name="weights_name"	            value="$(find my_detector)/weights/weights.pt"/>
+    <arg name="weights_path"	            value="$(find my_detector)/weights/weights.pt"/>
 
     <!-- Published topics -->
     <arg name="publish_image"	            value="true"/>
